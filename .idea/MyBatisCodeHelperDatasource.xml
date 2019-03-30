@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="activeDatabaseInfo">
+      <NewDatabaseInfo>
+        <option name="database" value="test" />
+        <option name="databaseType" value="MySql" />
+        <option name="password" value="wl968640" />
+        <option name="url" value="localhost:3306" />
+        <option name="userName" value="root" />
+      </NewDatabaseInfo>
+    </option>
+    <option name="databaseInfos">
+      <list>
+        <NewDatabaseInfo>
+          <option name="database" value="test" />
+          <option name="databaseType" value="MySql" />
+          <option name="password" value="wl968640" />
+          <option name="url" value="localhost:3306" />
+          <option name="userName" value="root" />
+        </NewDatabaseInfo>
+      </list>
+    </option>
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="genJavaMapperPath" value="$PROJECT_DIR$/src/main/java/com/tulun/dao" />
+        <option name="genMapperXmlPath" value="$PROJECT_DIR$/src/main/java/com/tulun/bean" />
+        <option name="genServiceInterfacePath" value="$PROJECT_DIR$/src/main/java/com/tulun/bean" />
+        <option name="genServicePath" value="$PROJECT_DIR$/src/main/java/com/tulun/bean" />
+        <option name="javaMapperPackage" value="com.tulun.dao" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="javaModelPackage" value="com.tulun" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="javaToCrudShouldGenerateService" value="false" />
+        <option name="javaToCrudShouldGenerateServiceInterface" value="false" />
+        <option name="javaToCurdShouldGenerateSql" value="false" />
+        <option name="lastDatabaseCrudChooseModuleName" value="Server" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="Server">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.tulun.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaModelPacakge" value="com.tulun" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="xmlPackage" value="com.tulun.dao" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/src/main/resource" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="test:products">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="Products" />
+                  <option name="moduleName" value="Server" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="xmlMapperPackage" value="com.tulun.dao" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/src/main/resource" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
